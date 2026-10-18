@@ -13,7 +13,7 @@ HTML and CSS, made for GitHub Pages. No build step.
 | `site.css` | Shared styles, including the shared "From Brewster Wickersham Publications" footer block |
 | `robots.txt`, `sitemap.xml` | Crawler rules and the sitemap. Update `<lastmod>` when a page's content changes |
 | `favicon.ico`, `favicon.png`, `apple-touch-icon.png` | Site icons |
-| `images/` | The banner and six store screenshots, resized from the app repo's `docs/press/` |
+| `images/` | The banner and six store screenshots, resized from the app repo's `docs/press/`, plus `og-image.jpg`, the 1200×630 social share image |
 
 Preview locally with `python -m http.server` in this folder and open http://localhost:8000.
 
