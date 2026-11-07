@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-shot]').forEach(b=>b.addEventListener('click',()=>{document.getElementById('demo-shot').src=b.dataset.shot;document.getElementById('demo-shot').alt=b.dataset.caption;document.getElementById('shot-caption').textContent=b.dataset.caption;document.querySelectorAll('[data-shot]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));}));
